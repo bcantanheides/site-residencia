@@ -1,0 +1,2306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCO NO ENARE — 1000 Questões de Residência</title>
+    <meta name="description" content="Site de estudo para residência veterinária com 1000 questões comentadas FGV do ENARE">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0e1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2035;
+            --bg-card-hover: #1f2847;
+            --bg-option: #151c2f;
+            --bg-option-hover: #1c2540;
+            --border-color: #2a3454;
+            --border-accent: #3b4d7a;
+            --text-primary: #e8eaf0;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --accent-blue: #3b82f6;
+            --accent-blue-dim: #1e40af;
+            --accent-purple: #8b5cf6;
+            --accent-emerald: #10b981;
+            --accent-emerald-dim: #065f46;
+            --accent-red: #ef4444;
+            --accent-red-dim: #7f1d1d;
+            --accent-amber: #f59e0b;
+            --accent-amber-dim: #78350f;
+            --gradient-main: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+            --gradient-card: linear-gradient(145deg, rgba(59, 130, 246, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%);
+            --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+            --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.15);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --radius-xs: 6px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .bg-gradient::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 20% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+                        radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.06) 0%, transparent 50%),
+                        radial-gradient(ellipse at 50% 80%, rgba(236, 72, 153, 0.04) 0%, transparent 50%);
+            animation: bgFloat 20s ease-in-out infinite;
+        }
+
+        @keyframes bgFloat {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(2%, -2%) rotate(1deg); }
+            66% { transform: translate(-1%, 1%) rotate(-0.5deg); }
+        }
+
+        /* ===== HEADER ===== */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 14, 26, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(42, 52, 84, 0.5);
+            padding: 0 24px;
+        }
+
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            background: var(--gradient-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 800;
+            color: white;
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: 700;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-sub {
+            font-size: 11px;
+            color: var(--text-muted);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .header-stats {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .stat-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: 20px;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent-blue);
+            transition: var(--transition);
+        }
+
+        .stat-badge.correct {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: rgba(16, 185, 129, 0.2);
+            color: var(--accent-emerald);
+        }
+
+        .stat-badge.wrong {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+        }
+
+        /* ===== NAVIGATION / SIDEBAR ===== */
+        .app-layout {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 900px) {
+            .app-layout {
+                grid-template-columns: 1fr;
+                padding: 16px;
+            }
+            .sidebar {
+                position: fixed;
+                top: 72px;
+                left: -320px;
+                width: 300px;
+                height: calc(100vh - 72px);
+                z-index: 99;
+                transition: var(--transition);
+                background: var(--bg-secondary);
+                border-right: 1px solid var(--border-color);
+                padding: 20px;
+                overflow-y: auto;
+            }
+            .sidebar.open {
+                left: 0;
+                box-shadow: 20px 0 60px rgba(0,0,0,0.5);
+            }
+            .sidebar-overlay {
+                display: none;
+                position: fixed;
+                top: 72px;
+                left: 0;
+                width: 100%;
+                height: calc(100vh - 72px);
+                background: rgba(0,0,0,0.5);
+                z-index: 98;
+            }
+            .sidebar-overlay.open {
+                display: block;
+            }
+            .menu-toggle {
+                display: flex !important;
+            }
+        }
+
+        .menu-toggle {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .sidebar {
+            position: sticky;
+            top: 96px;
+            height: calc(100vh - 120px);
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-color) transparent;
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        /* Mode Selector */
+        .mode-selector {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .mode-btn {
+            flex: 1;
+            padding: 10px 8px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .mode-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--text-primary);
+        }
+
+        .mode-btn.active {
+            background: rgba(59, 130, 246, 0.15);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+        }
+
+        /* Filter section */
+        .filter-section {
+            margin-bottom: 20px;
+        }
+
+        .filter-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .filter-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 14px;
+            margin-bottom: 4px;
+            border-radius: var(--radius-xs);
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: left;
+            transition: var(--transition);
+        }
+
+        .filter-btn:hover {
+            background: var(--bg-card);
+            color: var(--text-primary);
+        }
+
+        .filter-btn.active {
+            background: rgba(59, 130, 246, 0.12);
+            color: var(--accent-blue);
+        }
+
+        .filter-btn .count {
+            float: right;
+            font-size: 11px;
+            opacity: 0.6;
+        }
+
+        /* Search */
+        .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 14px 10px 38px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 13px;
+            font-family: inherit;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .search-box input:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        .search-box input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-box .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Progress bar */
+        .progress-section {
+            margin-bottom: 20px;
+            padding: 16px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .progress-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .progress-value {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .progress-bar-bg {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: var(--bg-primary);
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            background: var(--gradient-main);
+            transition: width 0.5s ease;
+            min-width: 0;
+        }
+
+        /* Question grid navigator */
+        .q-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 3px;
+            margin-bottom: 16px;
+        }
+
+        .q-grid-btn {
+            aspect-ratio: 1;
+            border: none;
+            border-radius: 4px;
+            background: var(--bg-card);
+            color: var(--text-muted);
+            font-size: 9px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .q-grid-btn:hover {
+            background: var(--accent-blue);
+            color: white;
+            transform: scale(1.15);
+        }
+
+        .q-grid-btn.answered-correct {
+            background: rgba(16, 185, 129, 0.3);
+            color: var(--accent-emerald);
+        }
+
+        .q-grid-btn.answered-wrong {
+            background: rgba(239, 68, 68, 0.3);
+            color: var(--accent-red);
+        }
+
+        .q-grid-btn.current {
+            background: var(--accent-blue);
+            color: white;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+        }
+
+        .q-range-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .q-range-btn {
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .q-range-btn:hover, .q-range-btn.active {
+            background: rgba(59, 130, 246, 0.15);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        .q-range-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Source Selector */
+        .source-selector {
+            margin-bottom: 20px;
+        }
+
+        .source-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 14px;
+            margin-bottom: 6px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: left;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .source-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--text-primary);
+            background: var(--bg-card-hover);
+        }
+
+        .source-btn.active {
+            background: rgba(59, 130, 246, 0.12);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.08);
+        }
+
+        .source-btn .source-icon {
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .source-btn .source-info {
+            flex: 1;
+        }
+
+        .source-btn .source-name {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .source-btn .source-desc {
+            display: block;
+            font-size: 11px;
+            font-weight: 500;
+            opacity: 0.7;
+            margin-top: 1px;
+        }
+
+        .source-btn .source-count {
+            font-size: 12px;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--accent-blue);
+            flex-shrink: 0;
+        }
+
+        .source-btn.active .source-count {
+            background: rgba(59, 130, 246, 0.25);
+        }
+
+        /* ENADE year sub-buttons */
+        .enade-years {
+            display: none;
+            flex-direction: column;
+            gap: 3px;
+            margin-left: 16px;
+            margin-bottom: 8px;
+            padding-left: 12px;
+            border-left: 2px solid var(--border-color);
+        }
+
+        .enade-years.open {
+            display: flex;
+        }
+
+        .enade-year-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 12px;
+            border-radius: var(--radius-xs);
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .enade-year-btn:hover {
+            background: var(--bg-card);
+            color: var(--text-primary);
+        }
+
+        .enade-year-btn.active {
+            background: rgba(139, 92, 246, 0.12);
+            color: var(--accent-purple);
+        }
+
+        .enade-year-btn .year-count {
+            font-size: 11px;
+            opacity: 0.6;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        .main-content {
+            min-width: 0;
+        }
+
+        /* Welcome screen */
+        .welcome-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 24px;
+            text-align: center;
+        }
+
+        .welcome-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 24px;
+            background: var(--gradient-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-glow);
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.2); }
+            50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.4); }
+        }
+
+        .welcome-title {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .welcome-desc {
+            font-size: 16px;
+            color: var(--text-secondary);
+            max-width: 500px;
+            margin-bottom: 32px;
+        }
+
+        .welcome-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            padding: 14px 28px;
+            border-radius: var(--radius-sm);
+            background: var(--gradient-main);
+            border: none;
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-secondary {
+            padding: 14px 28px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-blue);
+            background: var(--bg-card-hover);
+        }
+
+        /* Question Card */
+        .question-screen {
+            display: none;
+        }
+
+        .question-screen.active {
+            display: block;
+        }
+
+        .question-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow-card);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .question-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-main);
+        }
+
+        .question-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .question-number {
+            font-size: 13px;
+            font-weight: 800;
+            padding: 4px 12px;
+            border-radius: 6px;
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-blue);
+        }
+
+        .question-source {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .question-category {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+            background: rgba(139, 92, 246, 0.15);
+            color: var(--accent-purple);
+        }
+
+        .question-text {
+            font-size: 16px;
+            line-height: 1.75;
+            color: var(--text-primary);
+            margin-bottom: 28px;
+            font-weight: 400;
+        }
+
+        /* Options */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .option-btn {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 20px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-option);
+            border: 2px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 14px;
+            line-height: 1.6;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: left;
+            font-family: inherit;
+            width: 100%;
+        }
+
+        .option-btn:hover:not(.disabled) {
+            background: var(--bg-option-hover);
+            border-color: var(--accent-blue);
+            transform: translateX(4px);
+        }
+
+        .option-btn .option-letter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--accent-blue);
+            font-weight: 700;
+            font-size: 14px;
+            transition: var(--transition);
+            flex-shrink: 0;
+        }
+
+        .option-btn:hover:not(.disabled) .option-letter {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .option-btn .option-text {
+            padding-top: 4px;
+        }
+
+        .option-btn.selected {
+            border-color: var(--accent-blue);
+            background: rgba(59, 130, 246, 0.1);
+        }
+
+        .option-btn.selected .option-letter {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .option-btn.correct {
+            border-color: var(--accent-emerald) !important;
+            background: rgba(16, 185, 129, 0.1) !important;
+        }
+
+        .option-btn.correct .option-letter {
+            background: var(--accent-emerald) !important;
+            color: white !important;
+        }
+
+        .option-btn.wrong {
+            border-color: var(--accent-red) !important;
+            background: rgba(239, 68, 68, 0.08) !important;
+        }
+
+        .option-btn.wrong .option-letter {
+            background: var(--accent-red) !important;
+            color: white !important;
+        }
+
+        .option-btn.disabled {
+            cursor: default;
+            opacity: 0.7;
+        }
+
+        .option-btn.disabled.correct,
+        .option-btn.disabled.wrong {
+            opacity: 1;
+        }
+
+        /* Navigation buttons */
+        .question-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-btn:hover {
+            border-color: var(--accent-blue);
+            background: var(--bg-card-hover);
+            transform: translateY(-1px);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .nav-btn.next {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: white;
+        }
+
+        .nav-btn.next:hover {
+            background: #2563eb;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        }
+
+        .nav-counter {
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Simulado Result */
+        .result-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 40px;
+            text-align: center;
+            box-shadow: var(--shadow-card);
+        }
+
+        .result-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .result-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .result-score {
+            font-size: 48px;
+            font-weight: 900;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .result-detail {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+
+        .result-stats {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .result-stat {
+            text-align: center;
+        }
+
+        .result-stat-value {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .result-stat-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Bookmark */
+        .bookmark-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 18px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bookmark-btn:hover {
+            border-color: var(--accent-amber);
+            color: var(--accent-amber);
+        }
+
+        .bookmark-btn.active {
+            background: rgba(245, 158, 11, 0.15);
+            border-color: var(--accent-amber);
+            color: var(--accent-amber);
+        }
+
+        /* Reset button */
+        .reset-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 12px;
+            border-radius: var(--radius-xs);
+            background: transparent;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: var(--accent-red);
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .reset-btn:hover {
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 14px 20px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+            z-index: 200;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Keyboard shortcuts hint */
+        .shortcuts-hint {
+            margin-top: 16px;
+            padding: 12px;
+            border-radius: var(--radius-xs);
+            background: rgba(59, 130, 246, 0.05);
+            border: 1px solid rgba(59, 130, 246, 0.1);
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .shortcuts-hint kbd {
+            display: inline-block;
+            padding: 1px 6px;
+            border-radius: 4px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            font-size: 11px;
+            font-weight: 600;
+            margin: 0 2px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .question-card {
+                padding: 20px;
+            }
+            .question-text {
+                font-size: 14px;
+            }
+            .option-btn {
+                padding: 12px 14px;
+                font-size: 13px;
+            }
+            .header-stats .stat-badge:not(:first-child) {
+                display: none;
+            }
+            .welcome-title {
+                font-size: 22px;
+            }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-in {
+            animation: fadeInUp 0.4s ease forwards;
+        }
+
+        /* Simulado config */
+        .simulado-config {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+
+        .simulado-config h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .config-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .config-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            min-width: 160px;
+        }
+
+        .config-input {
+            padding: 8px 14px;
+            border-radius: var(--radius-xs);
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            font-size: 14px;
+            font-family: inherit;
+            width: 100px;
+            outline: none;
+        }
+
+        .config-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        select.config-input {
+            width: auto;
+            min-width: 200px;
+            cursor: pointer;
+        }
+
+        /* Timer */
+        .timer {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            color: var(--accent-amber);
+            font-size: 14px;
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .timer.urgent {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: rgba(239, 68, 68, 0.3);
+            color: var(--accent-red);
+            animation: timerPulse 1s infinite;
+        }
+
+        @keyframes timerPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        /* Hidden */
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div style="display:flex;align-items:center;gap:16px;">
+                <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Abrir menu">☰</button>
+                <div class="logo">
+                    <div class="logo-icon">E</div>
+                    <div>
+                        <div class="logo-text">FOCO NO ENARE</div>
+                        <div class="logo-sub">1000 Questões Comentadas</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-stats">
+                <div class="stat-badge" id="stat-answered">
+                    <span>📝</span>
+                    <span id="answered-count">0</span> respondidas
+                </div>
+                <div class="stat-badge correct" id="stat-correct">
+                    <span>✅</span>
+                    <span id="correct-count">0</span>
+                </div>
+                <div class="stat-badge wrong" id="stat-wrong">
+                    <span>❌</span>
+                    <span id="wrong-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <!-- Mode Selector -->
+            <div class="mode-selector">
+                <button class="mode-btn active" onclick="setMode('study')" id="mode-study">📖 Estudo</button>
+                <button class="mode-btn" onclick="setMode('simulado')" id="mode-simulado">⏱️ Simulado</button>
+            </div>
+
+            <!-- Search -->
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" placeholder="Buscar questão..." id="search-input" oninput="handleSearch(this.value)">
+            </div>
+
+            <!-- Source Selector -->
+            <div class="source-selector">
+                <div class="filter-title">Banco de Questões</div>
+                <button class="source-btn active" onclick="setSource('fgv1000')" id="source-fgv1000">
+                    <span class="source-icon">📚</span>
+                    <span class="source-info">
+                        <span class="source-name">FGV 1000 Questões</span>
+                        <span class="source-desc">Foco no ENARE — Comentadas</span>
+                    </span>
+                    <span class="source-count">1000</span>
+                </button>
+                <button class="source-btn" onclick="setSource('enade')" id="source-enade">
+                    <span class="source-icon">🎓</span>
+                    <span class="source-info">
+                        <span class="source-name">ENADE — Provas Oficiais</span>
+                        <span class="source-desc">Provas anteriores por ano</span>
+                    </span>
+                    <span class="source-count" id="enade-total-count">380</span>
+                </button>
+                <div class="enade-years" id="enade-years"></div>
+            </div>
+
+            <!-- Progress -->
+            <div class="progress-section">
+                <div class="progress-header">
+                    <span class="progress-label">Progresso</span>
+                    <span class="progress-value" id="progress-value">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-bar" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <!-- Filter by Category -->
+            <div class="filter-section">
+                <div class="filter-title">Filtros</div>
+                <button class="filter-btn active" onclick="filterCategory('all')" data-cat="all">
+                    Todas <span class="count" id="filter-all-count">1000</span>
+                </button>
+                <button class="filter-btn" onclick="filterCategory('sus')" data-cat="sus">
+                    🏥 SUS / Gerais <span class="count" id="filter-sus-count">200</span>
+                </button>
+                <button class="filter-btn" onclick="filterCategory('vet')" data-cat="vet">
+                    🐾 Veterinária <span class="count" id="filter-vet-count">800</span>
+                </button>
+                <button class="filter-btn" onclick="filterCategory('bookmarked')" data-cat="bookmarked">
+                    ⭐ Favoritas <span class="count" id="bookmarked-count">0</span>
+                </button>
+                <button class="filter-btn" onclick="filterCategory('wrong')" data-cat="wrong">
+                    ❌ Erradas <span class="count" id="wrong-filter-count">0</span>
+                </button>
+                <button class="filter-btn" onclick="filterCategory('unanswered')" data-cat="unanswered">
+                    ⬜ Não respondidas <span class="count" id="unanswered-count">1000</span>
+                </button>
+            </div>
+
+            <!-- Question Grid Navigator -->
+            <div class="filter-section">
+                <div class="filter-title" id="grid-title">Navegador de Questões</div>
+                <div class="q-range-selector" id="q-range-selector"></div>
+                <div class="q-grid" id="q-grid"></div>
+            </div>
+
+            <!-- Shortcuts -->
+            <div class="shortcuts-hint">
+                <strong>Atalhos:</strong><br>
+                <kbd>A</kbd>-<kbd>E</kbd> Selecionar opção<br>
+                <kbd>→</kbd> Próxima &nbsp; <kbd>←</kbd> Anterior<br>
+                <kbd>B</kbd> Favoritar &nbsp; <kbd>R</kbd> Aleatória
+            </div>
+
+            <!-- Reset -->
+            <button class="reset-btn" onclick="resetProgress()">🗑️ Limpar todo o progresso</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome -->
+            <div id="welcome-screen" class="welcome-screen">
+                <div class="welcome-icon">📚</div>
+                <h1 class="welcome-title">Bora estudar para o ENARE!</h1>
+                <p class="welcome-desc">
+                    1000 questões FGV organizadas para você dominar SUS e Conhecimentos Específicos de Veterinária. 
+                    Seu progresso é salvo automaticamente no navegador.
+                </p>
+                <div class="welcome-actions">
+                    <button class="btn-primary" onclick="startStudy()">▶️ Começar do início</button>
+                    <button class="btn-secondary" onclick="startRandom()">🎲 Questão aleatória</button>
+                    <button class="btn-secondary" onclick="resumeStudy()">📖 Continuar de onde parei</button>
+                </div>
+            </div>
+
+            <!-- Question Screen -->
+            <div id="question-screen" class="question-screen">
+                <div class="question-card animate-in" id="question-card">
+                    <button class="bookmark-btn" id="bookmark-btn" onclick="toggleBookmark()" title="Favoritar questão">☆</button>
+                    <div class="question-meta">
+                        <span class="question-number" id="q-number">Q.1</span>
+                        <span class="question-source" id="q-source">FGV</span>
+                        <span class="question-category" id="q-category">SUS</span>
+                    </div>
+                    <div class="question-text" id="q-text"></div>
+                    <div class="options-list" id="q-options"></div>
+                    <div class="question-nav">
+                        <button class="nav-btn prev" id="btn-prev" onclick="goQuestion(-1)">← Anterior</button>
+                        <span class="nav-counter" id="nav-counter">1 / 1000</span>
+                        <button class="nav-btn next" id="btn-next" onclick="goQuestion(1)">Próxima →</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simulado Config Screen -->
+            <div id="simulado-config-screen" class="hidden">
+                <div class="simulado-config animate-in">
+                    <h3>⏱️ Configurar Simulado</h3>
+                    <div class="config-row">
+                        <span class="config-label">Quantidade de questões:</span>
+                        <input type="number" class="config-input" id="simulado-count" value="30" min="5" max="100">
+                    </div>
+                    <div class="config-row">
+                        <span class="config-label">Tempo por questão:</span>
+                        <select class="config-input" id="simulado-time">
+                            <option value="60">1 minuto</option>
+                            <option value="90" selected>1,5 minutos</option>
+                            <option value="120">2 minutos</option>
+                            <option value="180">3 minutos</option>
+                            <option value="0">Sem limite</option>
+                        </select>
+                    </div>
+                    <div class="config-row">
+                        <span class="config-label">Categoria:</span>
+                        <select class="config-input" id="simulado-category">
+                            <option value="all">Todas as questões (FGV + ENADE)</option>
+                            <option value="fgv">Apenas FGV 1000</option>
+                            <option value="enade">Apenas ENADE (Provas Oficiais)</option>
+                            <option value="sus">SUS / Comuns (FGV + ENADE)</option>
+                            <option value="vet">Veterinária (FGV + ENADE)</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 24px;">
+                        <button class="btn-primary" onclick="startSimulado()">🚀 Iniciar Simulado</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simulado Active Screen -->
+            <div id="simulado-screen" class="hidden">
+                <div class="question-card animate-in" id="simulado-card">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+                        <div class="question-meta" style="margin-bottom:0;">
+                            <span class="question-number" id="sim-q-number">Q.1</span>
+                            <span class="question-source" id="sim-q-source">FGV</span>
+                        </div>
+                        <div class="timer" id="sim-timer">⏱ 00:00</div>
+                    </div>
+                    <div class="question-text" id="sim-q-text"></div>
+                    <div class="options-list" id="sim-q-options"></div>
+                    <div class="question-nav">
+                        <span class="nav-counter" id="sim-nav-counter">1 / 30</span>
+                        <button class="nav-btn next" id="sim-btn-next" onclick="nextSimulado()">Próxima →</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simulado Result Screen -->
+            <div id="simulado-result-screen" class="hidden">
+                <div class="result-card animate-in" id="result-card"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Questions Data - loaded from external files -->
+    <script src="questoes.js"></script>
+    <script src="enade_questoes.js"></script>
+    <script>
+        // ===== ENADE DATA PROCESSING =====
+        // Build ENADE questions with unique keys (to avoid ID collisions with FGV 1000)
+        const ENADE_YEARS = Object.keys(ENADE_DATA).sort();
+        let ALL_ENADE_QUESTIONS = [];
+        const ENADE_BY_YEAR = {};
+
+        ENADE_YEARS.forEach(year => {
+            const yearQuestions = ENADE_DATA[year].map(q => ({
+                ...q,
+                _uid: `enade_${year}_${q.id}`,  // unique key
+                _originalId: q.id,
+                _year: year,
+                source: `ENARE ${year}`,
+            }));
+            ENADE_BY_YEAR[year] = yearQuestions;
+            ALL_ENADE_QUESTIONS = ALL_ENADE_QUESTIONS.concat(yearQuestions);
+        });
+
+        // Also add _uid to FGV questions
+        QUESTIONS.forEach(q => {
+            q._uid = `fgv_${q.id}`;
+            q._originalId = q.id;
+        });
+
+        // ===== STATE =====
+        let state = {
+            mode: 'study', // study | simulado
+            source: 'fgv1000', // fgv1000 | enade | enade_YEAR
+            currentIndex: 0,
+            filteredQuestions: [],
+            activeQuestions: [], // current source questions
+            filter: 'all',
+            searchQuery: '',
+            gridRange: 0,
+            enadeYear: null, // current enade year filter
+            // Progress (persisted)
+            answers: {},      // { _uid: { selected: 'A', correct: null } }
+            bookmarks: new Set(),
+            lastQuestion: {},  // { source: index }
+            // Simulado
+            simulado: null,
+        };
+
+        // Dynamic grid ranges - recalculated per source
+        let GRID_RANGES = [];
+
+        function computeGridRanges() {
+            const qs = state.activeQuestions;
+            if (qs.length === 0) { GRID_RANGES = []; return; }
+            
+            const maxId = Math.max(...qs.map(q => q._originalId));
+            
+            if (maxId <= 60) {
+                // ENADE 60-question exam
+                GRID_RANGES = [[1, 20], [21, 40], [41, 60]];
+            } else if (maxId <= 100) {
+                // ENADE 100-question exam
+                GRID_RANGES = [[1, 20], [21, 40], [41, 60], [61, 80], [81, 100]];
+            } else {
+                // FGV 1000
+                GRID_RANGES = [[1,100],[101,200],[201,400],[401,600],[601,800],[801,1000]];
+            }
+        }
+
+        // ===== INIT =====
+        function init() {
+            loadProgress();
+            buildEnadeYearButtons();
+            setSource('fgv1000');
+        }
+
+        // ===== BUILD ENADE YEAR BUTTONS =====
+        function buildEnadeYearButtons() {
+            const container = document.getElementById('enade-years');
+            container.innerHTML = '';
+
+            // "All years" button
+            const allBtn = document.createElement('button');
+            allBtn.className = 'enade-year-btn';
+            allBtn.dataset.year = 'all';
+            allBtn.innerHTML = `📋 Todas as provas <span class="year-count">${ALL_ENADE_QUESTIONS.length}</span>`;
+            allBtn.onclick = () => setEnadeYear('all');
+            container.appendChild(allBtn);
+
+            ENADE_YEARS.forEach(year => {
+                const btn = document.createElement('button');
+                btn.className = 'enade-year-btn';
+                btn.dataset.year = year;
+                const count = ENADE_BY_YEAR[year].length;
+                btn.innerHTML = `🎓 ENADE ${year} <span class="year-count">${count}q</span>`;
+                btn.onclick = () => setEnadeYear(year);
+                container.appendChild(btn);
+            });
+
+            // Update total count
+            document.getElementById('enade-total-count').textContent = ALL_ENADE_QUESTIONS.length;
+        }
+
+        // ===== SOURCE SELECTION =====
+        function setSource(source) {
+            state.source = source;
+            state.filter = 'all';
+            state.currentIndex = 0;
+            state.gridRange = 0;
+            state.enadeYear = null;
+
+            // Update source buttons
+            document.getElementById('source-fgv1000').classList.toggle('active', source === 'fgv1000');
+            document.getElementById('source-enade').classList.toggle('active', source === 'enade');
+
+            // Show/hide ENADE year submenu
+            const yearsContainer = document.getElementById('enade-years');
+            yearsContainer.classList.toggle('open', source === 'enade');
+
+            if (source === 'fgv1000') {
+                state.activeQuestions = [...QUESTIONS];
+            } else {
+                state.activeQuestions = [...ALL_ENADE_QUESTIONS];
+                // Auto-select first year
+                setEnadeYear('all');
+                return; // setEnadeYear will call the rest
+            }
+
+            computeGridRanges();
+            buildGridRangeButtons();
+            updateFilterCounts();
+            applyFilter();
+            updateStats();
+            updateProgress();
+            renderGrid();
+            showScreen('welcome');
+        }
+
+        function setEnadeYear(year) {
+            state.enadeYear = year;
+            state.filter = 'all';
+            state.currentIndex = 0;
+            state.gridRange = 0;
+
+            // Update year buttons
+            document.querySelectorAll('.enade-year-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.year === year);
+            });
+
+            if (year === 'all') {
+                state.activeQuestions = [...ALL_ENADE_QUESTIONS];
+            } else {
+                state.activeQuestions = [...(ENADE_BY_YEAR[year] || [])];
+            }
+
+            computeGridRanges();
+            buildGridRangeButtons();
+            updateFilterCounts();
+            applyFilter();
+            updateStats();
+            updateProgress();
+            renderGrid();
+
+            // Update grid title
+            if (year === 'all') {
+                document.getElementById('grid-title').textContent = 'Navegador — Todas as Provas';
+            } else {
+                document.getElementById('grid-title').textContent = `Navegador — ENADE ${year}`;
+            }
+
+            showScreen('welcome');
+        }
+
+        function buildGridRangeButtons() {
+            const container = document.getElementById('q-range-selector');
+            container.innerHTML = '';
+
+            // For ENADE "all years", show year-based tabs instead
+            if (state.source === 'enade' && state.enadeYear === 'all') {
+                ENADE_YEARS.forEach((year, i) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'q-range-btn' + (i === 0 ? ' active' : '');
+                    btn.dataset.range = String(i);
+                    btn.textContent = year;
+                    btn.onclick = () => {
+                        state.gridRange = i;
+                        document.querySelectorAll('.q-range-btn').forEach(b => {
+                            b.classList.toggle('active', b.dataset.range === String(i));
+                        });
+                        renderGrid();
+                    };
+                    container.appendChild(btn);
+                });
+                // Override GRID_RANGES for "all" view
+                GRID_RANGES = ENADE_YEARS.map(y => [y, y]); // use year as key
+                return;
+            }
+
+            GRID_RANGES.forEach(([start, end], i) => {
+                const btn = document.createElement('button');
+                btn.className = 'q-range-btn' + (i === 0 ? ' active' : '');
+                btn.dataset.range = String(i);
+                btn.textContent = `${start}-${end}`;
+                btn.onclick = () => setGridRange(i);
+                container.appendChild(btn);
+            });
+        }
+
+        function updateFilterCounts() {
+            const qs = state.activeQuestions;
+            const total = qs.length;
+            const sus = qs.filter(q => q.category.includes('Comuns') || q.category.includes('Gerais')).length;
+            const vet = qs.filter(q => q.category.includes('Específic')).length;
+            const unanswered = qs.filter(q => !state.answers[q._uid]).length;
+
+            document.getElementById('filter-all-count').textContent = total;
+            document.getElementById('filter-sus-count').textContent = sus;
+            document.getElementById('filter-vet-count').textContent = vet;
+            document.getElementById('unanswered-count').textContent = unanswered;
+        }
+
+        // ===== PERSISTENCE =====
+        function saveProgress() {
+            const data = {
+                answers: state.answers,
+                bookmarks: [...state.bookmarks],
+                lastQuestion: state.lastQuestion,
+            };
+            localStorage.setItem('enare_progress_v2', JSON.stringify(data));
+        }
+
+        function loadProgress() {
+            try {
+                const raw = localStorage.getItem('enare_progress_v2');
+                if (raw) {
+                    const data = JSON.parse(raw);
+                    state.answers = data.answers || {};
+                    state.bookmarks = new Set(data.bookmarks || []);
+                    state.lastQuestion = data.lastQuestion || {};
+                }
+                // Migrate from v1 if exists
+                const v1 = localStorage.getItem('enare_progress');
+                if (v1 && !raw) {
+                    const d = JSON.parse(v1);
+                    if (d.answers) {
+                        // Convert numeric IDs to fgv_ prefixed UIDs
+                        for (const [key, val] of Object.entries(d.answers)) {
+                            state.answers[`fgv_${key}`] = val;
+                        }
+                    }
+                    if (d.bookmarks) {
+                        d.bookmarks.forEach(b => state.bookmarks.add(`fgv_${b}`));
+                    }
+                    saveProgress();
+                }
+            } catch(e) { console.error(e); }
+        }
+
+        function resetProgress() {
+            if (confirm('Tem certeza que deseja apagar todo o progresso? Essa ação não pode ser desfeita.')) {
+                localStorage.removeItem('enare_progress_v2');
+                localStorage.removeItem('enare_progress');
+                state.answers = {};
+                state.bookmarks = new Set();
+                state.lastQuestion = {};
+                state.currentIndex = 0;
+                updateFilterCounts();
+                updateStats();
+                updateProgress();
+                renderGrid();
+                showScreen('welcome');
+                showToast('Progresso resetado!');
+            }
+        }
+
+        // ===== FILTERING =====
+        function applyFilter() {
+            let questions = [...state.activeQuestions];
+            
+            // Category filter
+            if (state.filter === 'sus') {
+                questions = questions.filter(q => q.category.includes('Comuns') || q.category.includes('Gerais'));
+            } else if (state.filter === 'vet') {
+                questions = questions.filter(q => q.category.includes('Específic'));
+            } else if (state.filter === 'bookmarked') {
+                questions = questions.filter(q => state.bookmarks.has(q._uid));
+            } else if (state.filter === 'wrong') {
+                questions = questions.filter(q => state.answers[q._uid] && state.answers[q._uid].correct === false);
+            } else if (state.filter === 'unanswered') {
+                questions = questions.filter(q => !state.answers[q._uid]);
+            }
+
+            // Search filter
+            if (state.searchQuery.length >= 2) {
+                const s = state.searchQuery.toLowerCase();
+                questions = questions.filter(q => 
+                    q.question.toLowerCase().includes(s) ||
+                    q.source.toLowerCase().includes(s) ||
+                    q._originalId.toString().includes(s)
+                );
+            }
+
+            state.filteredQuestions = questions;
+        }
+
+        function filterCategory(cat) {
+            state.filter = cat;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.cat === cat);
+            });
+            applyFilter();
+            if (state.filteredQuestions.length > 0) {
+                state.currentIndex = 0;
+                showQuestion();
+            } else {
+                showToast('Nenhuma questão encontrada com esse filtro');
+            }
+        }
+
+        function handleSearch(query) {
+            state.searchQuery = query;
+            applyFilter();
+            if (state.filteredQuestions.length > 0) {
+                state.currentIndex = 0;
+                if (document.getElementById('question-screen').classList.contains('active')) {
+                    showQuestion();
+                }
+            }
+        }
+
+        // ===== MODES =====
+        function setMode(mode) {
+            state.mode = mode;
+            document.getElementById('mode-study').classList.toggle('active', mode === 'study');
+            document.getElementById('mode-simulado').classList.toggle('active', mode === 'simulado');
+            
+            if (mode === 'simulado') {
+                showScreen('simulado-config');
+            } else {
+                showScreen('welcome');
+            }
+        }
+
+        // ===== SCREENS =====
+        function showScreen(screen) {
+            document.getElementById('welcome-screen').style.display = screen === 'welcome' ? 'flex' : 'none';
+            document.getElementById('question-screen').classList.toggle('active', screen === 'question');
+            document.getElementById('simulado-config-screen').classList.toggle('hidden', screen !== 'simulado-config');
+            document.getElementById('simulado-screen').classList.toggle('hidden', screen !== 'simulado');
+            document.getElementById('simulado-result-screen').classList.toggle('hidden', screen !== 'simulado-result');
+        }
+
+        // ===== STUDY MODE =====
+        function startStudy() {
+            state.currentIndex = 0;
+            applyFilter();
+            showQuestion();
+        }
+
+        function startRandom() {
+            applyFilter();
+            if (state.filteredQuestions.length === 0) {
+                showToast('Nenhuma questão disponível');
+                return;
+            }
+            state.currentIndex = Math.floor(Math.random() * state.filteredQuestions.length);
+            showQuestion();
+        }
+
+        function resumeStudy() {
+            applyFilter();
+            const lastIdx = state.lastQuestion[state.source] || 0;
+            const unanswered = state.filteredQuestions.findIndex(q => !state.answers[q._uid]);
+            state.currentIndex = unanswered >= 0 ? unanswered : Math.min(lastIdx, state.filteredQuestions.length - 1);
+            showQuestion();
+        }
+
+        function showQuestion() {
+            if (state.filteredQuestions.length === 0) {
+                showToast('Nenhuma questão encontrada com esse filtro');
+                return;
+            }
+
+            showScreen('question');
+            const q = state.filteredQuestions[state.currentIndex];
+            
+            document.getElementById('q-number').textContent = `Q.${q._originalId}`;
+            document.getElementById('q-source').textContent = q.source;
+            document.getElementById('q-category').textContent = q.category;
+            document.getElementById('q-text').textContent = q.question;
+            
+            // Bookmark
+            const bookBtn = document.getElementById('bookmark-btn');
+            bookBtn.classList.toggle('active', state.bookmarks.has(q._uid));
+            bookBtn.textContent = state.bookmarks.has(q._uid) ? '★' : '☆';
+
+            // Options
+            const optContainer = document.getElementById('q-options');
+            optContainer.innerHTML = '';
+            
+            const letters = Object.keys(q.options);
+            const answered = state.answers[q._uid];
+
+            letters.forEach(letter => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                if (answered) btn.classList.add('disabled');
+                
+                if (answered) {
+                    if (answered.selected === letter && answered.correct === false) btn.classList.add('wrong');
+                    if (answered.selected === letter && answered.correct === true) btn.classList.add('correct');
+                    if (q.correct_answer === letter) btn.classList.add('correct'); // always highlight correct answer
+                    if (answered.selected === letter && answered.correct === null) btn.classList.add('selected'); // fallback
+                }
+
+                btn.innerHTML = `
+                    <span class="option-letter">${letter}</span>
+                    <span class="option-text">${q.options[letter]}</span>
+                `;
+
+                if (!answered) {
+                    btn.onclick = () => selectAnswer(q._uid, letter);
+                }
+
+                optContainer.appendChild(btn);
+            });
+
+            // Nav
+            document.getElementById('btn-prev').disabled = state.currentIndex <= 0;
+            document.getElementById('nav-counter').textContent = 
+                `${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
+
+            // Re-animate
+            const card = document.getElementById('question-card');
+            card.classList.remove('animate-in');
+            void card.offsetWidth;
+            card.classList.add('animate-in');
+
+            // Update grid
+            updateGridHighlight();
+
+            // Save last position
+            state.lastQuestion[state.source] = state.currentIndex;
+            saveProgress();
+        }
+
+        function selectAnswer(uid, letter) {
+            const q = state.filteredQuestions.find(q => q._uid === uid);
+            let isCorrect = null;
+            if (q && q.correct_answer) {
+                if (q.correct_answer === '*' || q.correct_answer === 'X') {
+                    isCorrect = true; // Annulled questions count as correct
+                    showToast('Questão Anulada! Ponto garantido.');
+                } else {
+                    isCorrect = (letter === q.correct_answer);
+                    if (isCorrect) showToast('Resposta Correta! ✅');
+                    else showToast(`Resposta Incorreta! ❌ A correta era ${q.correct_answer}`);
+                }
+            } else {
+                showToast(`Resposta ${letter} registrada!`);
+            }
+
+            state.answers[uid] = { selected: letter, correct: isCorrect, timestamp: Date.now() };
+            saveProgress();
+            updateStats();
+            updateProgress();
+            updateFilterCounts();
+            renderGrid();
+            
+            showQuestion(); // re-render options with correct highlighting
+        }
+
+        function goQuestion(delta) {
+            const newIndex = state.currentIndex + delta;
+            if (newIndex >= 0 && newIndex < state.filteredQuestions.length) {
+                state.currentIndex = newIndex;
+                showQuestion();
+            }
+        }
+
+        function goToQuestionByUid(uid) {
+            const idx = state.filteredQuestions.findIndex(q => q._uid === uid);
+            if (idx >= 0) {
+                state.currentIndex = idx;
+                showQuestion();
+            } else {
+                // Reset filter and try again
+                state.filter = 'all';
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.cat === 'all');
+                });
+                applyFilter();
+                const idx2 = state.filteredQuestions.findIndex(q => q._uid === uid);
+                if (idx2 >= 0) {
+                    state.currentIndex = idx2;
+                    showQuestion();
+                }
+            }
+            if (window.innerWidth <= 900) {
+                toggleSidebar();
+            }
+        }
+
+        // ===== BOOKMARK =====
+        function toggleBookmark() {
+            if (!state.filteredQuestions.length) return;
+            const q = state.filteredQuestions[state.currentIndex];
+            if (state.bookmarks.has(q._uid)) {
+                state.bookmarks.delete(q._uid);
+                showToast('Removida dos favoritos');
+            } else {
+                state.bookmarks.add(q._uid);
+                showToast('Adicionada aos favoritos ⭐');
+            }
+            saveProgress();
+            updateBookmarkBtn();
+            document.getElementById('bookmarked-count').textContent = state.bookmarks.size;
+        }
+
+        function updateBookmarkBtn() {
+            if (!state.filteredQuestions.length) return;
+            const q = state.filteredQuestions[state.currentIndex];
+            const btn = document.getElementById('bookmark-btn');
+            const isBookmarked = state.bookmarks.has(q._uid);
+            btn.classList.toggle('active', isBookmarked);
+            btn.textContent = isBookmarked ? '★' : '☆';
+        }
+
+        // ===== SIMULADO =====
+        function startSimulado() {
+            const count = parseInt(document.getElementById('simulado-count').value) || 30;
+            const timePerQ = parseInt(document.getElementById('simulado-time').value);
+            const cat = document.getElementById('simulado-category').value;
+
+            // Use all available questions from all sources for simulado
+            let pool = [...QUESTIONS, ...ALL_ENADE_QUESTIONS];
+            if (cat === 'sus') pool = pool.filter(q => q.category.includes('Comuns') || q.category.includes('Gerais'));
+            if (cat === 'vet') pool = pool.filter(q => q.category.includes('Específic'));
+            if (cat === 'enade') pool = [...ALL_ENADE_QUESTIONS];
+            if (cat === 'fgv') pool = [...QUESTIONS];
+
+            // Shuffle
+            for (let i = pool.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [pool[i], pool[j]] = [pool[j], pool[i]];
+            }
+
+            const selected = pool.slice(0, Math.min(count, pool.length));
+
+            state.simulado = {
+                questions: selected,
+                currentIndex: 0,
+                answers: {},
+                timePerQ: timePerQ,
+                totalTime: timePerQ * selected.length,
+                startTime: Date.now(),
+                timerInterval: null,
+                elapsed: 0,
+            };
+
+            showScreen('simulado');
+            showSimuladoQuestion();
+
+            if (timePerQ > 0) {
+                startSimuladoTimer();
+            }
+        }
+
+        function showSimuladoQuestion() {
+            const sim = state.simulado;
+            const q = sim.questions[sim.currentIndex];
+
+            document.getElementById('sim-q-number').textContent = `Q.${q._originalId}`;
+            document.getElementById('sim-q-source').textContent = q.source;
+            document.getElementById('sim-q-text').textContent = q.question;
+            document.getElementById('sim-nav-counter').textContent = 
+                `${sim.currentIndex + 1} / ${sim.questions.length}`;
+
+            const optContainer = document.getElementById('sim-q-options');
+            optContainer.innerHTML = '';
+
+            const answered = sim.answers[q._uid];
+
+            Object.keys(q.options).forEach(letter => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                if (answered) btn.classList.add('disabled');
+                if (answered === letter) btn.classList.add('selected');
+
+                btn.innerHTML = `
+                    <span class="option-letter">${letter}</span>
+                    <span class="option-text">${q.options[letter]}</span>
+                `;
+
+                if (!answered) {
+                    btn.onclick = () => {
+                        sim.answers[q._uid] = letter;
+                        showSimuladoQuestion();
+                    };
+                }
+
+                optContainer.appendChild(btn);
+            });
+
+            const card = document.getElementById('simulado-card');
+            card.classList.remove('animate-in');
+            void card.offsetWidth;
+            card.classList.add('animate-in');
+        }
+
+        function nextSimulado() {
+            const sim = state.simulado;
+            if (sim.currentIndex < sim.questions.length - 1) {
+                sim.currentIndex++;
+                showSimuladoQuestion();
+            } else {
+                finishSimulado();
+            }
+        }
+
+        function startSimuladoTimer() {
+            const sim = state.simulado;
+            const timerEl = document.getElementById('sim-timer');
+            
+            sim.timerInterval = setInterval(() => {
+                sim.elapsed = Math.floor((Date.now() - sim.startTime) / 1000);
+                const remaining = sim.totalTime - sim.elapsed;
+                
+                if (remaining <= 0) {
+                    finishSimulado();
+                    return;
+                }
+
+                const min = Math.floor(remaining / 60);
+                const sec = remaining % 60;
+                timerEl.textContent = `⏱ ${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+                
+                if (remaining < 60) {
+                    timerEl.classList.add('urgent');
+                } else {
+                    timerEl.classList.remove('urgent');
+                }
+            }, 1000);
+        }
+
+        function finishSimulado() {
+            const sim = state.simulado;
+            if (sim.timerInterval) clearInterval(sim.timerInterval);
+
+            const total = sim.questions.length;
+            const answeredCount = Object.keys(sim.answers).length;
+            const elapsed = Math.floor((Date.now() - sim.startTime) / 1000);
+            const min = Math.floor(elapsed / 60);
+            const sec = elapsed % 60;
+
+            let correctCount = 0;
+            let wrongCount = 0;
+            let annulledCount = 0;
+
+            sim.questions.forEach(q => {
+                const ans = sim.answers[q._uid];
+                if (ans) {
+                    if (q.correct_answer === '*' || q.correct_answer === 'X') {
+                        correctCount++;
+                        annulledCount++;
+                    } else if (q.correct_answer === ans) {
+                        correctCount++;
+                    } else if (q.correct_answer) {
+                        wrongCount++;
+                    }
+                }
+            });
+
+            const resultHTML = `
+                <div class="result-icon">📊</div>
+                <div class="result-title">Simulado Finalizado!</div>
+                <div class="result-score">${correctCount} / ${total} corretas</div>
+                <div class="result-detail">
+                    Você respondeu ${answeredCount} de ${total} questões em ${min}min ${sec}s
+                </div>
+                <div class="result-stats">
+                    <div class="result-stat">
+                        <div class="result-stat-value" style="color: var(--accent-blue)">${correctCount}</div>
+                        <div class="result-stat-label">Corretas</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value" style="color: #ef4444">${wrongCount}</div>
+                        <div class="result-stat-label">Incorretas</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value" style="color: var(--text-muted)">${total - answeredCount}</div>
+                        <div class="result-stat-label">Em branco</div>
+                    </div>
+                </div>
+                ${annulledCount > 0 ? `<div style="font-size:12px;color:var(--text-muted);margin-top:10px;">${annulledCount} questão(ões) anulada(s) (pontos garantidos).</div>` : ''}
+                <div style="margin-top: 20px; display: flex; gap: 12px; justify-content: center;">
+                    <button class="btn-primary" onclick="startSimulado()">🔄 Novo Simulado</button>
+                    <button class="btn-secondary" onclick="setMode('study')">📖 Voltar ao Estudo</button>
+                </div>
+            `;
+
+            document.getElementById('result-card').innerHTML = resultHTML;
+            showScreen('simulado-result');
+        }
+
+        // ===== GRID =====
+        function renderGrid() {
+            const container = document.getElementById('q-grid');
+            container.innerHTML = '';
+
+            if (GRID_RANGES.length === 0) return;
+
+            const rangeData = GRID_RANGES[state.gridRange] || GRID_RANGES[0];
+
+            // For ENADE "all" mode, rangeData is [year, year]
+            if (state.source === 'enade' && state.enadeYear === 'all') {
+                const year = rangeData[0];
+                const yearQs = ENADE_BY_YEAR[year] || [];
+                yearQs.forEach(q => {
+                    const btn = document.createElement('button');
+                    btn.className = 'q-grid-btn';
+                    btn.textContent = q._originalId;
+                    btn.title = `ENADE ${year} - Q${q._originalId}`;
+                    btn.onclick = () => goToQuestionByUid(q._uid);
+
+                    const answer = state.answers[q._uid];
+                    if (answer) {
+                        if (answer.correct === true) btn.classList.add('answered-correct');
+                        else if (answer.correct === false) btn.classList.add('answered-wrong');
+                        else btn.classList.add('answered-correct');
+                    }
+
+                    container.appendChild(btn);
+                });
+            } else {
+                // Standard numeric range
+                const [start, end] = rangeData;
+                const qs = state.activeQuestions;
+
+                for (let i = start; i <= end; i++) {
+                    const q = qs.find(q => q._originalId === i);
+                    if (!q) continue;
+
+                    const btn = document.createElement('button');
+                    btn.className = 'q-grid-btn';
+                    btn.textContent = i;
+                    btn.onclick = () => goToQuestionByUid(q._uid);
+
+                    const answer = state.answers[q._uid];
+                    if (answer) {
+                        if (answer.correct === true) btn.classList.add('answered-correct');
+                        else if (answer.correct === false) btn.classList.add('answered-wrong');
+                        else btn.classList.add('answered-correct');
+                    }
+
+                    container.appendChild(btn);
+                }
+            }
+
+            updateGridHighlight();
+        }
+
+        function setGridRange(range) {
+            state.gridRange = range;
+            document.querySelectorAll('.q-range-btn').forEach(btn => {
+                btn.classList.toggle('active', parseInt(btn.dataset.range) === range);
+            });
+            renderGrid();
+        }
+
+        function updateGridHighlight() {
+            if (state.filteredQuestions.length === 0) return;
+            const currentQ = state.filteredQuestions[state.currentIndex];
+            if (!currentQ) return;
+            
+            const gridBtns = document.querySelectorAll('.q-grid-btn');
+            gridBtns.forEach(btn => {
+                btn.classList.remove('current');
+            });
+
+            // Find and highlight the current question in the grid
+            gridBtns.forEach(btn => {
+                if (parseInt(btn.textContent) === currentQ._originalId) {
+                    // For ENADE all-years mode, also check we're on the right year tab
+                    if (state.source === 'enade' && state.enadeYear === 'all') {
+                        const yearRange = GRID_RANGES[state.gridRange];
+                        if (yearRange && currentQ._year === yearRange[0]) {
+                            btn.classList.add('current');
+                        }
+                    } else {
+                        btn.classList.add('current');
+                    }
+                }
+            });
+        }
+
+        // ===== STATS =====
+        function updateStats() {
+            const qs = state.activeQuestions;
+            const answeredUids = qs.filter(q => state.answers[q._uid]).length;
+            const correct = qs.filter(q => state.answers[q._uid] && state.answers[q._uid].correct === true).length;
+            const wrong = qs.filter(q => state.answers[q._uid] && state.answers[q._uid].correct === false).length;
+            const recorded = answeredUids - correct - wrong;
+
+            document.getElementById('answered-count').textContent = answeredUids;
+            document.getElementById('correct-count').textContent = correct > 0 ? correct : recorded;
+            document.getElementById('wrong-count').textContent = wrong;
+
+            document.getElementById('bookmarked-count').textContent = state.bookmarks.size;
+            document.getElementById('wrong-filter-count').textContent = wrong;
+        }
+
+        function updateProgress() {
+            const qs = state.activeQuestions;
+            const total = qs.length;
+            const answered = qs.filter(q => state.answers[q._uid]).length;
+            const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
+            document.getElementById('progress-value').textContent = `${pct}%`;
+            document.getElementById('progress-bar').style.width = `${pct}%`;
+        }
+
+        // ===== SIDEBAR TOGGLE =====
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('sidebar-overlay').classList.toggle('open');
+        }
+
+        // ===== TOAST =====
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 2500);
+        }
+
+        // ===== KEYBOARD SHORTCUTS =====
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT') return;
+            
+            const key = e.key.toUpperCase();
+            
+            if (state.mode === 'study' && document.getElementById('question-screen').classList.contains('active')) {
+                if (['A', 'B', 'C', 'D', 'E'].includes(key)) {
+                    const q = state.filteredQuestions[state.currentIndex];
+                    if (q && !state.answers[q._uid] && q.options[key]) {
+                        selectAnswer(q._uid, key);
+                    }
+                }
+                if (e.key === 'ArrowRight') goQuestion(1);
+                if (e.key === 'ArrowLeft') goQuestion(-1);
+                if (key === 'B') toggleBookmark();
+                if (key === 'R') startRandom();
+            }
+
+            if (state.mode === 'simulado' && !document.getElementById('simulado-screen').classList.contains('hidden')) {
+                if (['A', 'B', 'C', 'D', 'E'].includes(key)) {
+                    const sim = state.simulado;
+                    const q = sim.questions[sim.currentIndex];
+                    if (q && !sim.answers[q._uid] && q.options[key]) {
+                        sim.answers[q._uid] = key;
+                        showSimuladoQuestion();
+                    }
+                }
+                if (e.key === 'ArrowRight' || e.key === 'Enter') nextSimulado();
+            }
+        });
+
+        // ===== INIT =====
+        init();
+    </script>
+</body>
+</html>
