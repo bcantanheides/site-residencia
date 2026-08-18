@@ -1,0 +1,862 @@
+                        MINISTÉRIO DA EDUCAÇÃO
+                        EMPRESA BRASILEIRA DE SERVIÇOS HOSPITALARES
+
+                                                                                       T1046009N
+                    4ª EDIÇÃO DO EXAME NACIONAL DE RESIDÊNCIA (2023/2024)
+                                      EDITAL Nº 04/2023
+               RESIDÊNCIA MULTIPROFISSIONAL E EM ÁREA PROFISSIONAL DA SAÚDE
+
+
+
+                               MEDICINA VETERINÁRIA
+
+
+Nível                                     Sobre o material recebido pelo candidato
+SUPERIOR                                  ✓ Além deste Caderno de Questões com sessenta questões objetivas,
+                                            você receberá do fiscal de sala a Folha de Respostas.
+                                          ✓ Confira seu nome, o número do seu documento e o número de sua
+Turno
+                                            inscrição em todos os documentos entregues pelo fiscal. Além disso, não
+TARDE                                       se esqueça de conferir seu Caderno de Questões quanto a falhas de
+                                            impressão e de numeração e se a profissão corresponde àquela para o
+                                            qual você se inscreveu.
+        PROVA                             ✓ O não cumprimento a qualquer uma das determinações constantes em
+                                            Edital, no presente Caderno e na Folha de Respostas incorrerá na
+                                            eliminação do candidato.
+
+
+
+
+        01
+ Lembre-se de marcar o
+                                         Sobre o material a ser devolvido pelo candidato
+                                          ✓ O único documento válido para avaliação é a Folha de Respostas.
+                                          ✓ Na Folha de Respostas, preencha o campo destinado à assinatura. As
+                                            respostas das questões objetivas devem ser preenchidas da seguinte
+                                            maneira:
+ número acima na folha                    ✓ Na Folha de Respostas, só é permitido o uso de caneta esferográfica
+    de respostas!                           transparente de cor azul ou preta. Esse documento deve ser devolvido
+                                            ao fiscal na saída, devidamente preenchido e assinado.
+
+                                          Sobre a duração da prova e a permanência na sala
+                                          ✓ O prazo de realização da prova é de 04 (quatro) horas, incluindo a
+                                            marcação da Folha de Respostas.
+                                          ✓ Após 60 (sessenta) minutos do início da prova, o candidato estará
+                                            liberado para utilizar o sanitário ou deixar definitivamente o local de
+                                            aplicação, não podendo, no entanto, levar o Caderno de Questões e
+                                            nenhum tipo de anotação de suas respostas.
+                                          ✓ O candidato poderá levar consigo o Caderno de Questões somente se
+                                            aguardar em sala até o término do prazo de realização da prova
+                                            estabelecido em Edital.
+ Fraudar ou tentar fraudar                ✓ Os três últimos candidatos só poderão retirar-se da sala juntos, após
+Concursos Públicos é Crime!                 assinatura do Termo de Fechamento do Envelope de Retorno.
+ Previsto no art. 311 - A do
+       Código Penal
+                                          Sobre a divulgação das provas e dos gabaritos
+                                          ✓ O Caderno de Questões e o Gabarito Preliminar estarão disponíveis no
+                                            site do Enare no endereço eletrônico https://enare.ebserh.gov.br,
+                                            conforme previsto em Edital.
+EXAME NACIONAL DE RESIDÊNCIA                                                              INSTITUTO AOCP
+
+
+Competências (Conhecimentos,                        2
+habilidades, atitudes) Comuns                       Em epidemiologia, existem vários modelos para
+                                                    se representar o processo saúde-doença,
+                                                    principalmente quando este está associado aos
+1                                                   aspectos etiológicos das doenças. Analise a
+A chegada a um município de novos moradores         seguinte figura e assinale a alternativa que
+com determinada doença aumentará a prevalência      corresponde ao modelo apresentado.
+dessa doença. Da mesma maneira, a saída de
+pessoas doentes diminuirá sua frequência, ou
+seja, sem se modificar o risco e a sobrevida pode
+haver flutuação nos casos existentes de
+determinada doença em função de processos
+migratórios. Além deste, é correto afirmar que um
+dos outros fatores que influenciam para o
+aumento da prevalência de um agravo à saúde é
+
+(A) a sazonalidade que influencia diretamente no
+    surgimento dos agravos agudos e crônicos.
+(B) a falta de tratamento que diminui o tempo de
+    sobrevivência, o que pode levar a uma
+    diminuição do tempo de duração da doença.
+(C) a redução no tempo e duração dos casos que se
+    alcança por meio da prevenção primária.
+(D) a maior frequência com que surgem casos novos
+    (incidência).
+(E) o aumento do número de casos novos, que
+    ocorre pela melhoria das ações de prevenção
+                                                    Fonte: adaptado de Pereira, 2013.
+    primária e secundária.
+
+                                                    (A) Modelo da cadeia de eventos.
+                                                    (B) Modelo da dupla ecológica.
+                                                    (C) Modelo das causas – múltiplos efeitos.
+                                                    (D) Modelo sistêmico.
+                                                    (E) Modelo da etiologia social da doença.
+
+
+                                                    3
+                                                    Dentre as descritas a seguir, qual das ações
+                                                    tomadas pelo profissional de saúde é considerada
+                                                    a prioritária para reduzir a infecção associada ao
+                                                    cuidado em saúde?
+
+                                                    (A) Estímulo à antibioticoterapia profilática.
+                                                    (B) Higienização das mãos dos profissionais de
+                                                         saúde.
+                                                    (C) Minimização de procedimentos invasivos e não
+                                                        invasivos.
+                                                    (D) Aumento da rotatividade da equipe de saúde
+                                                        entre os setores.
+                                                    (E) Adoção de mecanismos para que a falha humana
+                                                        não ocorra.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                   Tipo 01 – Página 2
+EXAME NACIONAL DE RESIDÊNCIA                                                              INSTITUTO AOCP
+
+4                                                     6
+Luciana, 24 anos, é acadêmica da residência           A seguinte imagem ilustra os cinco tipos de
+multiprofissional em saúde e foi orientada pelo       tecnologias de gestão da clínica: as diretrizes
+tutor a verificar sua situação vacinal em relação a   clínicas, a gestão da condição de saúde, a gestão
+Covid-19. No cartão de vacina de Luciana,             de caso, a auditoria clínica e a lista de espera.
+constam 3 doses de vacina monovalente
+(Covid-19). Pelo esquema vacinal registrado,
+sabe-se que Luciana está apta a receber a dose de
+reforço bivalente, pois foi respeitado o intervalo
+de
+
+(A) 4 meses da última dose recebida.
+(B) 2 meses da última dose recebida.
+(C) 4 semanas da última dose recebida.
+(D) 2 semanas da última dose recebida.
+(E) 12 semanas da última dose recebida.
+
+
+5
+É o eixo estruturante que organiza a
+descentralização das ações e serviços de saúde
+no país e se materializa por meio da organização
+                                                      Nesse contexto, é correto afirmar que, para
+das Redes de Atenção à Saúde – RAS – o(a)
+                                                      alcançar seus objetivos, as diretrizes clínicas
+                                                      devem
+(A) equidade.
+(B) regionalização.                                   (A) utilizar o método de auditoria que confronta a
+(C) governança.                                           prática real com padrões predefinidos e busca
+(D) intergestão.                                          pela economia de escopo.
+(E) abrangência.                                      (B) combinar medicina baseada em evidência,
+                                                          avaliação tecnológica em saúde, avaliação
+                                                          econômica dos serviços de saúde e garantia de
+                                                          qualidade.
+                                                      (C) alterar os padrões de cuidados sem causar
+                                                          danos aos resultados em relação aos pacientes e
+                                                          com menores custos.
+                                                      (D) abordar um modelo voltado ao profissional de
+                                                          saúde que responde a um doente por meio de
+                                                          procedimentos      curativos,  cuidadores     e
+                                                          reabilitadores.
+                                                      (E) proporcionar os elementos fundamentais para
+                                                          uma participação reativa das pessoas usuárias
+                                                          em sua atenção, recolhendo e acolhendo seu
+                                                          grau de confiança.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                    Tipo 01 – Página 3
+EXAME NACIONAL DE RESIDÊNCIA                                                                INSTITUTO AOCP
+
+7                                                     9
+O movimento pela democratização da saúde, que         Maria, 32 anos e obesa, procura a Unidade de
+tomou corpo no Brasil durante a segunda metade        Pronto Atendimento (UPA) devido a uma crise
+da década de setenta, possibilitou a formulação       hipertensiva.    Relata   não    fazer    uso    de
+do projeto da Reforma Sanitária Brasileira. Esse      medicamentos e que, sempre que precisa de
+processo teve como marco institucional a              atendimento de saúde, costuma ir diretamente à
+                                                      UPA. Após ser medicada, recebe alta e
+                                                      encaminhamento        para     um      especialista.
+(A) 8ª Conferência Nacional de Saúde.
+                                                      Considerando a Rede de Atenção à Saúde das
+(B) 5ª Ação Integrada de Saúde.                       Pessoas com Doenças Crônicas, realizar o
+(C) comissão intersetorial do SUS.                    diagnóstico, o rastreamento e o tratamento da sua
+(D) formação das caixas de aposentadorias e           população adstrita de acordo com os protocolos e
+    pensões.                                          as diretrizes clínicas estabelecidas pelo Sistema
+(E) Lei Eloy Chaves.                                  Único de Saúde é uma competência de qual dos
+                                                      componentes da Rede?
+
+8                                                     (A) Unidades de acesso aberto.
+Das várias abordagens adotadas na avaliação em        (B) Ambulatorial especializada.
+saúde, o modelo mais empregado é o de                 (C) Hospitalar.
+Donabedian (1980), de estruturação sistêmica,
+                                                      (D) Urgência e emergência.
+que estabelece a tríade estrutura – processo –
+resultado. Assim, é correto afirmar que se            (E) Atenção Básica.
+relaciona à Estrutura os indicadores
+                                                      10
+(A) que    expressam os reflexos das medidas
+                                                      Sobre o Conselho de Saúde, assinale a alternativa
+    implementadas na saúde da população.
+                                                      correta.
+(B) que refletem a forma de atuação para avaliar e
+    comparar       as     alterações   nos   perfis
+    epidemiológicos de uma determinada população.     (A) É subordinado ao Poder Executivo.
+(C) que envolvem auditoria de prontuários,            (B) É convocado a cada 4 anos para discutir as
+    supervisões periódicas e pesquisas de opinião          políticas de saúde.
+    pública.                                          (C) É criado por meio de portaria específica, e sua
+(D) organizacionais que indicam a existência de            dissolução depende de aprovação do judiciário.
+    recursos, fluxos e protocolos.                    (D) É composto por pessoas de diferentes grupos da
+(E) explícitos que refletem a forma de atuação de         sociedade, sendo 25% delas representantes de
+    uma equipe para garantir a qualidade do               usuários do SUS.
+    processo de prestação de serviços de acordo       (E) Tem caráter deliberativo, ou seja, toma decisões
+    com padrões de excelência técnica.                    que devem ser cumpridas pelo poder público.
+
+
+                                                      11
+                                                      Os acadêmicos da residência multiprofissional
+                                                      discutiram com a equipe de saúde do Hospital
+                                                      Universitário a importância da assistência segura.
+                                                      Para    isso,    os   acadêmicos     listaram  as
+                                                      contribuições da segurança do paciente para a
+                                                      qualidade do cuidado de saúde, que estão
+                                                      descritas a seguir, EXCETO
+
+                                                      (A) ampliar a atenção nas questões colocadas pela
+                                                          ergonomia e pela psicologia.
+                                                      (B) chamar atenção para o impacto do erro e as
+                                                          consequências do dano.
+                                                      (C) disseminar situações nas quais são requeridos
+                                                          níveis elevados de produção e resultados.
+                                                      (D) mostrar com clareza como o cuidado de saúde
+                                                          pode ser danoso para os pacientes.
+                                                      (E) introduzir novas ferramentas e técnicas para a
+                                                          melhoria do cuidado de saúde.
+
+ MEDICINA VETERINÁRIA                                                                     Tipo 01 – Página 4
+EXAME NACIONAL DE RESIDÊNCIA                                                               INSTITUTO AOCP
+
+12                                                 15
+Após exposição a uma situação de risco para        As ações de vigilância e controle de roedores
+infecção sexualmente transmissível, um jovem       devem ser executadas, de forma temporária ou
+procura o Centro de Testagem e Aconselhamento      permanente, em área determinada (área-alvo), a
+(CTA) para atendimento. Considerado um serviço     fim de reduzir ou eliminar o risco iminente de
+especial de acesso aberto, no contexto das redes   transmissão de doenças (ou a própria doença),
+de atenção em saúde, é correto afirmar que o CTA   em particular, a doença denominada
+
+(A) é um serviço de atenção terciária.             (A) criptococose.
+(B) deve ser referenciado pela atenção primária.   (B) febre maculosa.
+(C) é uma das portas de entrada do SUS.            (C) giardíase.
+(D) tem acesso restrito à população LGBTQIAP+.     (D) leptospirose.
+(E) tem o atendimento vinculado ao cadastro nas    (E) leishmaniose.
+     equipes de saúde da família.
+
+                                                   16
+13                                                 Os governos, em todo o mundo, estão buscando
+Ao desenvolver atividades de Educação em Saúde     soluções inovadoras e transformadoras do
+na comunidade de Santa Luzia, visando à            sistema que assegurem a disponibilidade, a
+prevenção de zoonoses, um grupo de acadêmicos      variedade e a distribuição adequada da força de
+abordou, com um grupo de moradores, a questão      trabalho de saúde. Uma das soluções mais
+do controle vetorial do mosquito Aedes. Os         promissoras        reside     na      colaboração
+acadêmicos deram ênfase à adoção das práticas      interprofissional. Assim, como resultado da
+de manejo ambiental, que tem como principais       prática colaborativa, espera-se essencialmente
+atividades a proteção, a destruição ou a
+destinação adequada de criadouros, as quais
+                                                   (A) compromisso com a cogestão.
+devem ser executadas, prioritariamente, pelo
+próprio   morador     e/ou   proprietário. Essa    (B) estratégias inovadoras de ensino.
+abordagem é relacionada ao controle                (C) gestão transversal da atenção básica.
+                                                   (D) força de trabalho voltada para a clínica.
+(A) químico.                                       (E) serviços de saúde de excelência.
+(B) mecânico.
+(C) fracionado.                                    17
+(D) biológico.
+                                                   Entre os modelos assistenciais de atenção à
+(E) sustentável.                                   saúde, é uma característica da forma de
+                                                   organização do modelo de vigilância à saúde
+14
+                                                   (A) a       organização      hospitalocêntrica       e
+O profissional de saúde, ao realizar um
+                                                       médico-centrada.
+atendimento, explica para o paciente sobre seu
+tratamento, fornecendo todas as informações        (B) organizar-se por modos de transmissão e fatores
+necessárias e lhe dá a liberdade de escolha. Ao        de risco de doenças.
+adotar essa postura, o profissional está em        (C) as operações sobre problemas e grupos
+consonância com o princípio fundamental da             populacionais.
+Bioética denominado                                (D) ser voltado principalmente para campanhas
+                                                       sanitárias.
+(A) autonomia.                                     (E) ser direcionado à tecnologia médica (indivíduo).
+(B) reconhecimento.
+(C) empatia.
+(D) beneficência.
+(E) conhecimento.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                    Tipo 01 – Página 5
+EXAME NACIONAL DE RESIDÊNCIA                                                               INSTITUTO AOCP
+
+18                                                      20
+Os profissionais da equipe de saúde da Unidade          Maurício é profissional de saúde e atua em uma
+Básica de Saúde (UBS) Vila Mariana, durante             Unidade Básica. Sua postura de escuta e
+reunião do Conselho Local, abordaram a                  compromisso em dar respostas às necessidades
+possibilidade de modificar o horário de alguns          de saúde trazidas pelo usuário, de maneira que
+atendimentos. Relataram que muitos usuários             inclua sua cultura, seus saberes e sua capacidade
+diziam que não conseguiam participar das                de avaliar riscos, é compatível com a diretriz da
+atividades de Educação em Saúde promovidas              Política   Nacional    de   Humanização     (PNH)
+pela equipe multiprofissional, pois, no horário da      conhecida como
+manhã, muitos trabalhavam e não poderiam se
+ausentar.     Os   profissionais,    usuários    e
+                                                        (A) educação em saúde.
+conselheiros conseguiram adequar um horário
+diferenciado para melhorar a adesão da                  (B) promoção da saúde.
+população. No caso relatado, é descrita uma das         (C) ambiência.
+Diretrizes da Atenção Básica que é o(a)                 (D) acolhimento.
+                                                        (E) intersetorialidade.
+(A) consolidação do cuidado.
+(B) educação permanente.
+(C) participação da comunidade.
+(D) gestão direcionada.
+(E) cooperação da rede.
+
+
+19
+São ações priorizadas pela Política Nacional de
+Promoção à Saúde, EXCETO
+
+(A) ofertar e apoiar ações para incremento de
+    exames        periódicos   e     acompanhamento
+    especializado para hipertensos e diabéticos com
+    impacto na redução de internamentos por
+    doenças cardiovasculares.
+(B) investir na sensibilização e capacitação dos
+    gestores e profissionais de saúde na
+    identificação e encaminhamento adequado de
+    situações de violência intrafamiliar e sexual.
+(C) apoiar a restrição de acesso a bebidas alcoólicas
+    de acordo com o perfil epidemiológico de dado
+    território, protegendo segmentos vulneráveis e
+    priorizando situações de violência e danos
+    sociais.
+(D) realizar ações educativas de sensibilização da
+    população para a promoção de “comunidades
+    livres de tabaco”, divulgando ações relacionadas
+    ao tabagismo e seus diferentes aspectos.
+(E) mapear e apoiar as ações de práticas
+    corporais/atividades físicas existentes nos
+    serviços de atenção básica e na Estratégia de
+    Saúde da Família.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                    Tipo 01 – Página 6
+EXAME NACIONAL DE RESIDÊNCIA                                                                INSTITUTO AOCP
+
+
+Competências (Conhecimentos,                        23
+habilidades, atitudes) Específicas                  O médico veterinário atende um cão, 9 anos de
+                                                    idade, que apresenta apatia. Ele está suspeitando
+                                                    que o animal esteja apresentando colestase e,
+21                                                  para confirmar sua suspeita, ele solicita um
+Carlos é um médico veterinário que atua no ramo     exame bioquímico para avaliar a função hepática.
+de nutrição animal, fornecendo consultoria para     Nesse caso, as enzimas que confirmarão a sua
+confinamentos de bovinos de corte. Ele está         suspeita são:
+preparando    o   planejamento    do     próximo
+confinamento da Fazenda X que pretende confinar     (A) Alanina Aminotransferase (ALT) e Aspartato
+5000 animais. No seu planejamento, ele prevê que        Aminotransferase (AST).
+os animais tenham um ganho de peso de
+                                                    (B) Fosfatase Alcalina e Y-glutamil-transferase
+1,5 kg/dia e permaneçam no máximo 90 dias
+                                                        (GGT).
+confinados. Considerando que Carlos prevê que
+os animais sejam abatidos com 20@, com um           (C) Glutamato Desidrogenase e ALT.
+rendimento de carcaças de 55%, o peso inicial       (D) Sorbitol Desidrogenase e Creatinoquinase.
+dos animais deve ser de, aproximadamente,           (E) AST e Bilirrubina.
+
+(A) 360 kg.
+                                                    24
+(B) 395 kg.
+(C) 410 kg.                                         Tiago é residente de clínica médica de pequenos
+                                                    animais e atende uma cadela, da raça Chihuahua,
+(D) 450 kg.                                         5 anos de idade, e seu proprietário relata que a
+(E) 465 kg.                                         cadela está apresentando cio e escapou de casa
+                                                    no dia anterior e que um amigo presenciou a
+                                                    cadela sendo coberta por um cachorro da rua.
+22                                                  Como ele não quer que ela fique gestante no
+Um residente de anestesiologia do Hospital          momento, pois pretende colocar ela para
+Veterinário está de plantão e chega ao hospital     reproduzir, ele pergunta sobre a possibilidade de
+uma vaca de leite em trabalho de parto. O           induzir o aborto. Sob o ponto de vista da ética, é
+cirurgião atende a vaca e verifica que será         vedado que Tiago indique
+necessário realizar uma cesariana e, como o
+animal é dócil, ele opta por fazer a cesariana em   (A) o uso de benzoato de estradiol a cada 48 horas,
+estação. Nesse caso, a técnica anestésica                entre o 4° e o 10° dia, após a cobertura.
+indicada é
+                                                    (B) uma única dose de cipionato de estradiol três
+                                                        dias após a cobertura.
+(A) anestesia infiltrativa na região paramamária.   (C) que o proprietário aguarde a confirmação da
+(B) anestesia peridural em L1-L2.                       gestação, para depois pensar no método de
+(C) anestesia infiltrativa em L invertido.              abortamento.
+(D) anestesia de Bier.                              (D) uso de aglepristone no dia do atendimento.
+(E) bloqueio anestésico do nervo pudendo.           (E) uso de prostaglandina 2 vezes ao dia durante
+                                                        4 dias.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                     Tipo 01 – Página 7
+EXAME NACIONAL DE RESIDÊNCIA                                                                  INSTITUTO AOCP
+
+25                                                      27
+Tiago é o médico veterinário responsável pelo           Com frequência, nas regiões endêmicas para
+serviço de inspeção oficial de um frigorífico de        hemoncose, nota-se que, após o início de um
+bovinos. Em um lote de 30 bovinos, 3 deles              período de chuvas intensas, a contagem de ovos
+apresentaram cisticercose, sendo encontradas a          de vermes nas fezes de ovinos infectados por
+seguinte quantidade e distribuição dos cistos:          Haemoncus contortus diminui abruptamente para
+                                                        próximo a zero, isso ocorre em consequência
+Animal 1:   1 cisto calcificado no fígado;
+Animal 2:   10 cistos viáveis no coração;               (A) de uma reação de hipersensibilidade imediata
+Animal 3:   4 cistos calcificados no músculo                contra antígenos oriundos de larvas em
+            masseter e 4 cistos viáveis no                  desenvolvimento.
+            esôfago.                                    (B) do aumento da imunidade do hospedeiro contra o
+                                                            parasita.
+Nesse caso, quanto à destinação sanitária das           (C) da anidrobiose que, devido à chegada da chuva,
+carcaças, após a remoção e condenação das                   grande quantidade de larvas são reidratadas,
+áreas atingidas, qual será o procedimento                   causando sua morte e reduzindo a quantidade de
+adequado?                                                   vermes adultos nos animais.
+                                                        (D) da maior renovação do epitélio intestinal, o que
+(A) O animal 1 terá a carcaça liberada para consumo         reduz a nutrição dos parasitas, levando à morte
+    em natureza; as carcaças dos animais 2 e 3              grande parte dos vermes adultos.
+    serão condenadas totalmente.                        (E) da grave atrofia de vilosidades, na qual os
+(B) O animal 1 terá a carcaça liberada para consumo         vermes podem não ser capazes de manter-se no
+    em natureza; sendo a carcaça do animal 2                intestino, reduzindo, assim, a quantidade de ovos
+    destinada para aproveitamento condicional pelo          nas fezes.
+    frio; e a carcaça do animal 3 será condenada
+    totalmente.
+                                                        28
+(C) O animal 1 terá a carcaça destinada ao
+    aproveitamento condicional pelo sal; a carcaça      Um médico veterinário atende um cão
+    do animal 2 será condenada totalmente; e a          apresentando tosse e cansaço após exercício
+    carcaça do animal 3 será destinada ao               físico. Durante o exame clínico, ele verifica que o
+    aproveitamento condicional pelo frio.               animal apresenta sopro cardíaco grau 2. Após a
+(D) Todas as carcaças serão destinadas ao               avaliação ultrassonográfica, é diagnosticada uma
+                                                        doença valvar crônica de mitral. Nesse caso, um
+    aproveitamento condicional pelo frio.
+                                                        medicamento,      com     efeito   betabloqueador,
+(E) A carcaça do animal 1 será destinada ao             indicado para tratar essa alteração é
+    aproveitamento condicional pelo frio; as carcaças
+    do animal 2 e 3 serão condenadas totalmente.
+                                                        (A) pimobendan.
+                                                        (B) anlodipino.
+26                                                      (C) carvedilol.
+Eduardo é médico veterinário e atendeu um cão,          (D) benazepril.
+macho, 5 anos de idade, com peritonite e                (E) hidralazina.
+disfunção hepática, sendo necessário que o
+paciente passe por procedimento cirúrgico. De
+acordo com o histórico, qual fármaco é
+contraindicado    para    ser   usado    como
+pré-anestésico nesse caso?
+
+(A) Midazolam.
+(B) Acepromazina.
+(C) Metadona.
+(D) Dexmedetomidina.
+(E) Cetamina.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                       Tipo 01 – Página 8
+EXAME NACIONAL DE RESIDÊNCIA                                                                 INSTITUTO AOCP
+
+29                                                     32
+Um médico veterinário, que atua com assistência        João é médico veterinário responsável pelo
+técnica no campo, identifica, em uma propriedade       controle de qualidade de um frigorífico de
+de bovinos de corte, animais com lesões                bovinos. Ele está elaborando um programa de
+vesiculares nos lábios, narinas e patas. Ele           Análises de Perigos e Pontos Críticos de Controle
+verificou esse tipo de lesão em 4 bovinos e dois       (APPCC) no frigorífico em que trabalha. Durante a
+cavalos. Diante dessa situação, a atitude que esse     análise de perigos e aplicação da árvore decisória
+médico veterinário deve tomar é                        do produto Carne de Bovino com Osso, ele
+                                                       identifica a necessidade de colocar um Ponto
+                                                       Crítico de Controle (PCC) na sala de abate. Esse
+(A) iniciar o tratamento dos animais com penicilina
+                                                       PCC deve ser implantado em qual etapa do abate
+    procaína.
+                                                       de bovinos?
+(B) isolar os animais dos outros animais do rebanho,
+    limpar as feridas com clorexidina e avaliar
+    diariamente os animais.                            (A) Logo após a sangria do animal.
+(C) realizar a eutanásia dos animais, tendo em vista   (B) Logo após a oclusão do reto.
+    que o caso é uma suspeita de febre aftosa.         (C) Logo após a retirada do couro.
+(D) coletar material das lesões e encaminhar para      (D) Logo após a evisceração.
+    laboratório para confirmar o diagnóstico.          (E) Logo após a última etapa de toalete.
+(E) comunicar o fato ao órgão estadual de saúde
+    animal.
+                                                       33
+                                                       A implementação de programas reprodutivos em
+30                                                     sistemas pecuários é uma forma de aumentar os
+Quando um pesquisador vai realizar uma                 resultados de fertilidade e produtividade do
+pesquisa, é necessário avaliar diversas variáveis      rebanho. Pensando nisso, um veterinário quer
+que serão classificadas de acordo com suas             aumentar o número de vacas prenhes por
+características. Aquela variável que, em uma           inseminação artificial na fazenda que ele presta
+sequência causal, coloca-se entre a variável           consultoria. Para isso, após o protocolo de
+independente (X) e a dependente (Y), tendo como        Inseminação Artificial em Tempo Fixo (IATF), ele
+função ampliar, diminuir ou anular a influência de     deve propor
+X sobre Y, é chamada de variável
+                                                       (A) a ressincronização dos animais, com duas doses
+(A) componente.                                            de prostaglandina, aos 14 e 28 dias após o
+(B) interveniente.                                         primeiro protocolo.
+(C) extrínseca.                                        (B) diagnóstico de gestação aos 30 dias com
+(D) antecedente.                                           ultrassonografia e ressincronização utilizando um
+                                                           protocolo de IATF.
+(E) em bloco.
+                                                       (C) soltar touros no meio das vacas com 25 dias
+                                                           após a IATF, observar aquelas que estão sendo
+31                                                         cobertas pelos touros e inseminá-las.
+                                                       (D) um diagnóstico de gestação por palpação retal
+Uma veterinária atendeu um cão com histórico de
+                                                           aos 45 dias e inseminação artificial por meio de
+trauma e, durante a ultrassonografia, foi
+                                                           observação de cio com as vacas não gestantes.
+detectado     laceração     hepática.   Sobre   a
+cicatrização     hepática     em    procedimentos      (E) a ressincronização com 7 dias após o primeiro
+cirúrgicos, é correto afirmar que                          protocolo em todas as vacas inseminadas.
+
+
+(A) a regeneração hepática possibilita que sua
+    função seja adequada mesmo após a remoção
+    de 80% do órgão.
+(B) as lacerações hepáticas devem ser fechadas em
+    todos os casos.
+(C) a sutura hepática deve ser feita para criar uma
+    bolsa interna de bile.
+(D) a artéria hepática não deve ser ligada, mesmo
+    em casos emergenciais.
+(E) o fígado não possui capacidade de regeneração.
+
+
+
+ MEDICINA VETERINÁRIA                                                                      Tipo 01 – Página 9
+EXAME NACIONAL DE RESIDÊNCIA                                                                  INSTITUTO AOCP
+
+34                                                    37
+Sobre as fases de investigação e contenção de         Mateus é um médico veterinário que atua no setor
+um foco de Influenza Aviária, analise as assertivas   de patologia de um Hospital Veterinário, onde
+e assinale a alternativa que aponta as corretas.      recebeu amostras para exame histopatológico de
+                                                      bovinos com o seguinte histórico: de um total de
+I.   O     Serviço   Veterinário     Oficial  (SVO)   87 bovinos, 29 morreram apresentando urina
+     determinará uma zona de proteção que é uma       escura, fraqueza muscular, andar cambaleante,
+     área contida em um raio de 15 km a partir da     decúbito esternal e, por fim, morte. Os principais
+     zona de vigilância.                              achados de necropsia consistiam de áreas pálidas
+                                                      na musculatura esquelética e, em menor grau, no
+II. Na propriedade foco, confirmado o caso, não
+                                                      miocárdio,    e   mioglobinúria.   Após     exame
+     caberá indenização ao produtor.
+                                                      histopatológico, foram encontradas degeneração,
+III. É proibida a entrada e saída de aves, ovos e     necrose e regeneração de fibras musculares
+     seus subprodutos da propriedade foco,            esqueléticas e degeneração e necrose de
+     sendo permitida, com autorização do SVO, a       fibras miocárdicas. Nesse caso, o diagnóstico
+     entrada e saída de animais domésticos.           provável é
+IV. A zona perifocal é uma área contida em um
+     raio de 7 km a partir da propriedade foco.
+                                                      (A) intoxicação por Senna occidentalis.
+V. Os resíduos da produção, como carcaças das
+     aves, cama, esterco e demais subprodutos         (B) deficiência de vitamina E e Selênio.
+     serão destruídos e tratados de forma a           (C) intoxicação por antibióticos ionóforos.
+     garantir a eliminação do vírus nesses            (D) carbúnculo sintomático.
+     conteúdos.                                       (E) rabdomiólise por esforço.
+
+(A) Apenas II e IV.
+(B) Apenas I e III.                                   38
+(C) Apenas III e IV.                                  Tiago é residente de patologia clínica veterinária e
+(D) Apenas I e V.                                     recebe uma amostra de fezes de bovinos de um
+                                                      colega médico veterinário, o qual solicita que seja
+(E) Apenas II e III.                                  realizado o exame de fezes pelo Método de
+                                                      Baerman. Esse método é utilizado para o
+                                                      diagnóstico de
+35
+Durante o exame ultrassonográfico, o estômago
+                                                      (A) ostertagiose.
+varia de acordo com sua distensão e quantidade
+de conteúdo luminal. O estômago quando vazio,         (B) giardíase.
+por conta das dobras das pregas da mucosa, é          (C) coccidiose.
+semelhante a um(a)                                    (D) dictiocaulose.
+                                                      (E) hemoncose.
+(A) anel.
+(B) roda de carruagem.
+                                                      39
+(C) ponto de interrogação.
+(D) redemoinho.                                       A definição correta para esplenose é
+(E) espelho.
+                                                      (A) aumento do baço devido à hemoparasitose.
+                                                      (B) remoção cirúrgica total do baço.
+36                                                    (C) sutura de rompimento esplênico.
+A metrite enfisematosa é um processo                  (D) presença congênita ou traumática de nódulos de
+inflamatório agudo do endométrio e se caracteriza         tecido esplênico normal no abdome.
+pela presença de gases. Essa afecção é causada        (E) remoção parcial do baço, devido à presença de
+por bactérias anaeróbicas do gênero                       nódulos esplênicos.
+
+(A) Anaplasma spp.
+(B) Acetonacter spp.
+(C) Bacillus spp.
+(D) Clostridium spp.
+(E) Brucella spp.
+
+
+
+ MEDICINA VETERINÁRIA                                                                      Tipo 01 – Página 10
+EXAME NACIONAL DE RESIDÊNCIA                                                                  INSTITUTO AOCP
+
+40                                                  43
+João é residente em medicina veterinária            Felipe é residente na clínica de ruminantes e
+preventiva, tem pouca experiência em clínica de     atende uma vaca holandesa, com 8 anos de idade
+pequenos animais e está de plantão em um            e 650 kg, apresentando queda na produção de
+sábado. Vários animais estão internados no          leite, anorexia e prostração. O animal está em
+Hospital Veterinário, entre eles um cão, com um     lactação há 7 dias. Felipe realiza exames
+abscesso, que não está bem. Caso o quadro           bioquímicos e encontra hipoglicemia e aumento
+clínico desse paciente necessite de alguma          dos níveis de β-hidroxibutirato. Para o tratamento
+intervenção e João precise optar por algum          desse caso, esse profissional deve optar pelo uso
+medicamento para administrar nesse animal, ele      de
+NÃO deve prescrever
+                                                    (A) 4 litros de ácido acético via oral.
+(A) sulfadimetoxina intravenosa.                    (B) 300 g de propilenoglicol via oral.
+(B) penicilina benzatina intramuscular.             (C) 450 g de sulfato de magnésio via oral.
+(C) cefalotina intravenosa.                         (D) 500 g de bicarbonato de sódio via oral.
+(D) ampicilina intravenosa.                         (E) 500 mL de ringer lactato via intravenosa.
+(E) amoxicilina via oral.
+
+                                                    44
+41                                                  Em relação aos opioides, assinale a alternativa
+Nas culturas novas, estas bactérias apresentam      correta.
+coloração gram-positiva. Nos exsudatos e em
+culturas mais velhas (> 18 h), com frequência, os
+                                                    (A) Os opioides administrados por via intramuscular
+microrganismos        apresentam        coloração
+                                                         tendem a sofrer lenta absorção.
+gram-negativa, possivelmente por causa dos
+efeitos do enfraquecimento das autolisinas da       (B) A morfina, em dose baixa, tende a produzir um
+parede celular. O enunciado refere-se ao grupo de       efeito antiemético.
+bactérias                                           (C) Os opioides são tipicamente metabolizados antes
+                                                        da sua metabolização nos mamíferos.
+(A) Brachyspira suanatina.                          (D) Os      opioides    não  produzem      sedação,
+                                                        independentemente da dose utilizada.
+(B) Streptococcus agalactiae.
+                                                    (E) Os opioides não causam depressão respiratória
+(C) Helicobacter pylori.                                quando usados em doses altas.
+(D) Actinobacillus lingnieresii.
+(E) Moraxella bovis.
+                                                    45
+                                                    Membros     de   determinadas    espécies    são
+42                                                  diferentemente suscetíveis a doenças. Em relação
+Proteínas de fase aguda servem a diversas           à genética de hospedeiros, assinale a alternativa
+funções fisiológicas do sistema imune. Qual é a     correta.
+principal proteína de fase aguda em primatas,
+coelhos, hamsters e cães, sendo importante em
+                                                    (A) Os animais podem ser chamados de suscetíveis
+suínos?
+                                                        a um parasita, caso o agente não consiga
+                                                        estabelecer uma infecção.
+(A) Haptoglobina.                                   (B) Quando o parasito não consegue estabelecer
+(B) Transferrina.                                       infecção, é considerado uma resistência natural
+(C) Proteína C reativa.                                 ou não específica.
+(D) Amiloide sérica A.                              (C) A capacidade de resistir a uma infecção não
+(E) Glicoproteína ácida.                                pode ser herdada de pais para filhos.
+                                                    (D) O hospedeiro é chamado de resistente quando o
+                                                        parasito estabelece uma infecção, se reproduz e
+                                                        continua a sobreviver.
+                                                    (E) Indivíduos de espécies diferentes apresentam
+                                                        resistência diferente, enquanto os da mesma
+                                                        espécie apresentam resistência equivalente.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                      Tipo 01 – Página 11
+EXAME NACIONAL DE RESIDÊNCIA                                                               INSTITUTO AOCP
+
+46                                                    49
+Tadeu é residente de Clínica Cirúrgica de Grandes     Paulo atende um cão, sem raça definida, pesando
+Animais e pretende como bom profissional,             5 kg, com desidratação 8%, vômito e diarreia. O
+cumprir os preceitos éticos da profissão. Para ele    volume a ser administrado em 24 horas, para
+manter sua conduta ética durante a residência, é      repor a desidratação e as perdas pelo vômito e
+vedado que Tadeu                                      diarreia, e a quantidade de gotas/minuto
+                                                      (considerando     20    gotas/mL)      é     de,
+                                                      aproximadamente,
+(A) realize a eutanásia de um animal em estado
+    terminal.
+(B) informe os riscos de algum medicamento            (A) 300 mL; 20 gotas/minuto.
+    prescrito por ele.                                (B) 400 mL; 15 gotas/minuto.
+(C) denuncie pesquisa de seu preceptor que não        (C) 700 mL; 10 gotas/minuto.
+    está aprovada pelo comitê de ética.               (D) 850 mL; 25 gotas/minuto.
+(D) informe a um produtor que é especialista em       (E) 300 mL; 5 gotas/minuto.
+    Cirurgia de Grandes Animais.
+(E) denuncie às autoridades competentes qualquer
+    forma de agressão aos animais.                    50
+                                                      São hormônios derivados do colesterol, EXCETO
+47
+                                                      (A) estrógeno.
+Sobre a tuberculose bovina, assinale a alternativa
+correta.                                              (B) progesterona.
+                                                      (C) testosterona.
+(A) O    agente causador da doença é o                (D) aldosterona.
+    Mycobacterium tuberculosis.                       (E) vasopressina.
+(B) Um bovino reagente positivo no teste da prega
+    caudal pode ser submetido ao teste cervical
+    simples como teste confirmatório.
+                                                      51
+(C) Os animais reagentes positivos para tuberculose   Há diversos tipos de estudos epidemiológicos. O
+    devem ser encaminhados para o abate sanitário     Estudo Ecológico é aquele em que:
+    em até 30 dias após o diagnóstico.
+(D) Para os bovinos serem destinados ao abate, em     (A) a pesquisa realizada é com estatísticas; a
+    outro estado da federação, deverão ter                unidade de observação e análise não é
+    diagnóstico negativo para tuberculose.                constituída de indivíduos, mas de grupos de
+(E) O teste para tuberculose bovina é obrigatório         indivíduos.
+    para trânsito de fêmeas bovinas destinadas à      (B) na investigação cada indivíduo é observado em
+    reprodução com idade igual ou superior a              mais de uma ocasião.
+    12 meses.                                         (C) na investigação não há grupo controle formado
+                                                          durante seu desenrolar, ou seja, não há grupo
+                                                          interno para comparação de resultados.
+48                                                    (D) o conjunto de circunstâncias ocorre naturalmente
+O PNEFA (Programa Nacional de Vigilância de               e em que as pessoas estão sujeitas a diferentes
+Febre Aftosa) converge com os esforços para a             graus de exposição a um fator, simulando, assim,
+erradicação da doença na América do Sul. Um dos           uma verdadeira experiência planejada com essa
+seus objetivos é a substituição gradual da                finalidade.
+vacinação contra a febre aftosa, em todo o            (E) o pesquisador acompanha, de corpo presente, a
+território brasileiro, até o ano de 2026.                 investigação.
+Atualmente, alguns estados já são reconhecidos
+internacionalmente como zonas livres de febre
+aftosa sem vacinação, como os Estados de
+
+(A) São Paulo e Mato Grosso.
+(B) Paraná e Santa Catarina.
+(C) Rio Grande do Sul e Espírito Santo.
+(D) Minas Gerais e Goiás.
+(E) Mato Grosso e Mato Grosso do Sul.
+
+
+
+ MEDICINA VETERINÁRIA                                                                   Tipo 01 – Página 12
+EXAME NACIONAL DE RESIDÊNCIA                                                               INSTITUTO AOCP
+
+52                                                  54
+Os rins apresentam diferentes formatos de acordo    Pedro é consultor em fazendas de bovinos de
+com a espécie. A espécie em que o rim possui        corte na região amazônica e tem recebido
+uma forma oval irregular, e sua superfície          questionamento de vários clientes que estão
+apresenta fissuras que dividem o órgão em           tendo mortalidade de equinos com quadros de
+diversos lobos é a                                  cólica em suas propriedades. Os animais são
+                                                    alimentados apenas de pastagem e sal mineral,
+                                                    não recebendo qualquer suplemento. Isso ocorreu
+(A) canina.
+                                                    no início da estação chuvosa. Ao visitar as
+(B) felina.                                         propriedades, Pedro identificou que todos os
+(C) suína.                                          animais que apresentaram o quadro de cólica, nas
+(D) equina.                                         diferentes propriedades, estavam pastejando o
+(E) bovina.                                         mesmo tipo de capim. O capim em questão é o
+
+                                                    (A) Panicum maximum cv. Mombaça.
+53                                                  (B) Urochloa brizantha.
+Simão é residente de clínica médica de pequenos     (C) Cynodon spp.
+animais, atende um cão castrado com 9 anos de
+                                                    (D) Urochloa ruziziensis.
+idade e apresentando letargia. Ele solicita um
+hemograma completo e recebe os seguintes            (E) Pennisetum purpureum.
+resultados:
+                                                    55
+Volume globular (%): 36;
+                                                    Em um hospital veterinário, o residente de plantão
+Hemácias (x106/µl): 5.42;
+                                                    em um sábado atende um cão com suspeita de
+Hemoglobina (g/µl): 13,2;                           raiva. A recomendação que ele deve fazer para o
+VGM: 66;                                            tutor desse animal é
+CHCM: 37;
+Reticulócitos (x103/µl): 0;                         (A) desinfetar as superfícies que o animal teve
+Contagem total de leucócitos (x103/µl): 96,4;           contato com etanol 70% ou álcool iodado.
+Bastonetes (x103/µl): 7,7;                          (B) vacinar todos os cães e gatos a partir da primeira
+Segmentados (x103/µl): 82,9;                            semana de vida.
+Linfócitos (x103/µl): 1,0;                          (C) isolar o animal e seus contactantes para
+Eosinófilos (x103/µl): 0;                               observação por 40 dias.
+Monócitos (x103/µl): 4,8;                           (D) caso seja confirmado o caso, iniciar o tratamento
+Plaquetas (x103/µl): 39.                                imediatamente.
+                                                    (E) indicar que a vacinação de cães e gatos deve ser
+                                                        feita a cada dois anos, por via intramuscular.
+Ao interpretar esse exame, Simão conclui que o
+animal
+                                                    56
+(A) apresenta uma inflamação aguda, confirmada      Sobre a epidemiologia da leptospirose, assinale a
+    pela linfopenia.                                alternativa correta.
+(B) apresenta anemia regenerativa microcítica
+    normocrômica.
+                                                    (A) Os    hospedeiros naturais de manutenção
+(C) apresenta inflamação crônica, confirmada pela       apresentam sintomas graves da infecção.
+    neutrofilia e linfocitose.
+                                                    (B) Após a infecção, os hospedeiros excretam a
+(D) não apresenta anemia devido aos parâmetros
+                                                        leptospira por um curto período.
+    normais do hemograma.
+                                                    (C) A transmissão direta das leptospiras em cão
+(E) apresenta anemia em decorrência de doença           ocorre somente por meio do contato com urina
+    inflamatória.
+                                                        contaminada.
+                                                    (D) A transmissão indireta se dá por meio da
+                                                        exposição de cães susceptíveis à água, ao solo e
+                                                        a alimentos contaminados.
+                                                    (E) Quando cães se recuperam da infecção, podem
+                                                        se     tornar    portadores,     albergando    o
+                                                        microrganismo na circulação sanguínea.
+
+
+
+ MEDICINA VETERINÁRIA                                                                   Tipo 01 – Página 13
+EXAME NACIONAL DE RESIDÊNCIA                                                               INSTITUTO AOCP
+
+57                                                   60
+Um tratamento clínico indicado para a                A transversalidade pela área de vigilância em
+deformidade flexural congênita em potros é o(a)      saúde consiste em
+
+(A) desmotomia do ligamento flexor.                  (A) executar medidas de controle e prevenção de
+(B) casqueamento corretivo.                               doenças.
+(C) injeção intravenosa de oxitetraciclina.          (B) articular sistematicamente os serviços públicos e
+(D) uso de botões anestésicos no local da flexura.        privados que trabalhem com amostras biológicas.
+(E) uso de muleta de Thomas.                         (C) viabilizar meios para identificação oportuna e
+                                                         precoce de uma situação de risco real.
+                                                     (D) implantar       modelo   de    atenção    com
+58                                                       responsabilidade e vínculo.
+Há diferentes tipos de placentas que podem ser       (E) estabelecer mecanismos que propiciem a intra e
+classificadas de diversas maneiras, como de              a intersetorialidade.
+acordo com a estrutura macroscópica da placenta
+ou de acordo com as camadas teciduais da
+barreira entre mãe e feto. De acordo com essas
+duas classificações, a placenta da cadela pode
+ser classificada como
+
+(A) difusa; epiteliocorial.
+(B) zonária; endoteliocorial.
+(C) cotiledonária; hemocorial.
+(D) discoide; endoteliocorial.
+(E) corioalantoica; hemocorial.
+
+
+59
+Existem 20 vias catabólicas, uma para cada um
+dos 20 aminoácidos proteicos, que convergem em
+cinco possíveis produtos finais, os quais podem
+ingressar no ciclo de Krebs para seguir a
+oxidação total até CO2 e H2O, ou para sair como
+precursores da gliconeogênese, dependendo do
+estado metabólico do organismo. Somente dois
+aminoácidos são catabolizados via oxaloacetato
+para entrar no ciclo de Krebs, que são eles
+
+(A) serina e cisteína.
+(B) alanina e glicina.
+(C) leucina e tirosina.
+(D) metionina e lisina.
+(E) aspartato e asparagina.
+
+
+
+
+ MEDICINA VETERINÁRIA                                                                   Tipo 01 – Página 14
+
