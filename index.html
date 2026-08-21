@@ -2274,16 +2274,20 @@
             const key = e.key.toUpperCase();
             
             if (state.mode === 'study' && document.getElementById('question-screen').classList.contains('active')) {
+                const q = state.filteredQuestions[state.currentIndex];
+                const isAnswered = q && state.answers[q._uid];
+
                 if (['A', 'B', 'C', 'D', 'E'].includes(key)) {
-                    const q = state.filteredQuestions[state.currentIndex];
-                    if (q && !state.answers[q._uid] && q.options[key]) {
+                    if (q && !isAnswered && q.options[key]) {
                         selectAnswer(q._uid, key);
                     }
                 }
                 if (e.key === 'ArrowRight') goQuestion(1);
                 if (e.key === 'ArrowLeft') goQuestion(-1);
-                if (key === 'B') toggleBookmark();
-                if (key === 'R') startRandom();
+                // Only toggle bookmark / random if the question is already answered
+                // to avoid conflict with answer selection keys
+                if (key === 'B' && isAnswered) toggleBookmark();
+                if (key === 'R' && isAnswered) startRandom();
             }
 
             if (state.mode === 'simulado' && !document.getElementById('simulado-screen').classList.contains('hidden')) {
